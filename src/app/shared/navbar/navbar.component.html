@@ -1,0 +1,45 @@
+<!-- navbar.component.html -->
+ <nav class="fixed top-0 left-0 w-full z-50 vintage-bg vintage-text vintage-border backdrop-blur-md border-b px-6 py-4 shadow-sm">
+    <div class="flex justify-between items-center">
+        
+        <!-- LOGO -->
+        <a routerLink="/" class="flex items-center gap-3">
+            <img 
+                src="assets/images/logo-lobby.png" 
+                alt="Respuestos Lobby"
+                class="w-10 h-10 rounded-full object-contain"
+            />
+            <span class="text-2x1 uppercase tracking-wide vintage-heading">
+                Respuestos Lobby               
+            </span>
+        </a>
+
+        <!-- ÍCONO HAMBURGUESA (solo en móvil) -->
+        <button (click)="toggleMenu()" class="md:hidden text-[#2c2c2c]">
+            <!-- SVG: menú abierto -->
+            <svg *ngIf="!isMenuOpen" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.78h16.5M3.75 12h16.5M3.75 17.25h16.5" />
+            </svg>
+
+            <!-- SVG: menú cerrado (X) -->
+            <svg *ngIf="isMenuOpen" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+
+        
+        <!-- MENÚ DESKTOP -->
+        <ul class="hidden md:flex gap-6 vintage-body text-lg">
+            <li><a href="/" routerLinkActive="text-[var(--vintage-rojo)]" class="hover:text-[var(--vintage-rojo)] transition">Inicio</a></li>
+            <li><a href="/productos" routerLinkActive="text-[var(--vintage-rojo)]" class="hover:text-[var(--vintage-rojo)] transition">Productos</a></li>
+            <li><a href="/contacto" routerLinkActive="text-[var(--vintage-rojo)]" class="hover:text-[var(--vintage-rojo)] transition">Contacto</a></li>
+        </ul>
+    </div>
+
+    <!-- MENÚ MÓVIL (vertical) -->
+    <ul *ngIf="isMenuOpen" class="flex flex-col mt-4 gap-4 vintage-body text-lg md:hidden">
+        <li><a (click)="closeMenu()" href="/" routerLinkActive="text-[var(--vintage-rojo)]" class="hover:text-[var(--vintage-rojo)] transition">Inicio</a></li>
+        <li><a (click)="closeMenu()" href="/productos" routerLinkActive="text-[var(--vintage-rojo)]" class="hover:text-[var(--vintage-rojo)] transition">Productos</a></li>
+        <li><a (click)="closeMenu()" href="/contacto" routerLinkActive="text-[var(--vintage-rojo)]" class="hover:text-[var(--vintage-rojo)] transition">Contacto</a></li>
+    </ul>
+ </nav>

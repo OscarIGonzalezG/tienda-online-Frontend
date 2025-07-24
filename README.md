@@ -1,59 +1,100 @@
-# TiendaOnline
+# 🛠️ Tienda Online Vintage - Angular 19 + Tailwind
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
+Proyecto personal desarrollado como parte de mi portafolio, con el objetivo de reforzar mi stack frontend basado en **Angular 19** y **Tailwind CSS**, aplicando buenas prácticas, diseño responsivo y lógica personalizada sin librerías externas.
 
-## Development server
+## 🎯 Objetivo
 
-To start a local development server, run:
+Crear una **vitrina de productos online** con estética vintage, adaptada para desktop y móvil, que funcione de manera visual y profesional. El proyecto representa una **tienda de repuestos automotrices** y se está construyendo completamente desde cero.
 
-```bash
-ng serve
-```
+## ⚙️ Tecnologías
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Framework**: Angular 19 (componentes standalone)
+- **Estilos**: Tailwind CSS (tema vintage personalizado)
+- **Mock de datos**: JSON local (`assets/data/products.json`)
+- **Slider**: Implementación personalizada sin librerías externas
 
-## Code scaffolding
+## 🧩 Estructura de Componentes
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- `HeroComponent`: Cabecera introductoria
+- `ProductSliderComponent`: Slider responsivo de productos destacados
+- `CardProductoComponent`: Tarjeta de presentación de productos
+- `FooterComponent`: Pie de página con estilo clásico
+- `NavbarComponent`: Barra de navegación tipo taller mecánico vintage
+- `HomeComponent`: Página principal con integración de componentes
 
-```bash
-ng generate component component-name
-```
+## 🖼️ Diseño y Estilo
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Inspiración en **talleres mecánicos antiguos** con:
+- Paleta de colores vintage (`--vintage-rojo`, `--vintage-marco`, etc.)
+- Tipografía retro
+- Uso de `backdrop-blur`, sombras suaves, bordes redondeados
+- Transiciones `hover` elegantes y efectos sutiles
 
-```bash
-ng generate --help
-```
+## 🚀 Funcionalidades Implementadas
 
-## Building
+✅ Carga dinámica de productos desde un JSON  
+✅ Slider adaptativo a móvil y desktop sin librerías externas  
+✅ Transiciones y controles manuales (prev/next)  
+✅ Autoscroll automático con pausa al pasar el mouse  
+✅ Adaptación visual y funcional con Tailwind
 
-To build the project run:
+## 🧪 Retos Enfrentados
 
-```bash
-ng build
-```
+Durante el desarrollo, me encontré con varios desafíos:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- 🌀 Dificultades al adaptar un **slider responsive desde cero**
+- 📱 Problemas de visualización en móvil vs desktop
+- ⚙️ Coordinación entre el `translateX`, el `slideWidth` y el número de tarjetas visibles
+- 📐 Ajuste fino de medidas, márgenes y paddings sin romper el diseño
 
-## Running unit tests
+**Todos los problemas fueron documentados y solucionados progresivamente**, lo cual me permitió aprender muchísimo sobre renderizado angular, manejo de `ngStyle`, comunicación entre componentes y responsive design real.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📌 Pendiente
 
-```bash
-ng test
-```
+- Subida a mi portafolio web personal (en progreso)
+- Página de producto individual
+- Autenticación y carrito de compras (versión futura)
 
-## Running end-to-end tests
+## 📁 Cómo usar este proyecto
 
-For end-to-end (e2e) testing, run:
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/tienda-vintage-angular.git
+   cd tienda-vintage-angular
+   ```
 
-```bash
-ng e2e
-```
+2. Instalar dependencias:
+   ```bash
+   npm install
+   ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+3. Ejecutar la app:
+   ```bash
+   ng serve
+   ```
 
-## Additional Resources
+4. Acceder en navegador:
+   ```
+   http://localhost:4200
+   ```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 👨‍💻 Autor
+
+**Oscar [@tuLinkedIn]**  
+Desarrollador frontend en formación  
+Especializado en Angular + Tailwind CSS  
+
+---
+
+> **Nota**: Este proyecto aún no está subido a GitHub ni portafolio, pero será publicado pronto como parte de mi proceso de mejora continua.
+
+## 📬 Contacto
+
+- [LinkedIn](https://www.linkedin.com/in/tuusuario)
+- [Email](mailto:tuemail@example.com)
+
+---
+
+### 📸 Preview (opcional)
+
+Puedes incluir capturas de pantalla aquí para mostrar cómo se ve el sitio.

@@ -1,0 +1,20 @@
+<div class="vintage-bg vintage-text p-4 rounded-xl shadow-md max-w-screen-xl mx-auto ">
+    <h2 class="text-3xl vintage-heading text-center mb-6">Productos Destacados</h2>
+
+    <!-- contenedor scroll horizontal -->
+    <div 
+        #sliderContainer 
+        class="overflow-x-auto whitespace-nowrap scrollbar-hide"
+        (mouseenter)="pauseAutoScroll()"
+        (mouseleave)="startAutoScroll()"
+    >
+        <div class="flex gap-4 px-2 sm:px-4">
+            <div
+                *ngFor="let producto of productos"
+                class="flex-shrink-0 w-64 sm:w-72 lg:w-80"    
+            >
+                <app-card-producto [producto]="producto"></app-card-producto>
+            </div>
+        </div>
+    </div>
+</div>

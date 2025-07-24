@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+
+/* 🎨 Variables globales para estilo vintage */
+:root {
+  --vintage-bg: #f4efe8;
+  --vinatage-marco: #A79880;
+  --vintage-text: #2c2c2c;
+  --vintage-rojo: #8b2e24;
+  --vintage-dorado: #f3b562;
+  --vintage-gris: #5b5b5b;
+  --vintage-dark: #3e3e3e;
+
+  --vintage-heading: 'Alfa Slab One', serif;
+  --vintage-body: 'Inter', sans-serif;
+}
+
+/* 🎯 Clases personalizadas reutilizables */
+.vintage-bg {
+  background-color: var(--vintage-bg);
+}
+
+.vintage-text {
+  color: var(--vintage-text);
+}
+
+.vintage-heading {
+  font-family: var(--vintage-heading);
+}
+
+.vintage-body {
+  font-family: var(--vintage-body);
+}
+
+.vintage-border {
+  border-color: var(--vintage-gris);
+}
+
+.vintage-dark {
+  border-color: var(--vintage-dark);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
