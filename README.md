@@ -80,7 +80,7 @@ Durante el desarrollo, me encontré con varios desafíos:
 
 ## 👨‍💻 Autor
 
-**Oscar [@tuLinkedIn]**  
+**Oscar [@OscarIgnacioGonzalezGonzalez]**  
 Desarrollador frontend en formación  
 Especializado en Angular + Tailwind CSS  
 
@@ -90,11 +90,7 @@ Especializado en Angular + Tailwind CSS
 
 ## 📬 Contacto
 
-- [LinkedIn](https://www.linkedin.com/in/tuusuario)
+- [LinkedIn](https://www.linkedin.com/in/oscar-ignacio-gonzalez-gonzalez-911369171/)
 - [Email](mailto:tuemail@example.com)
 
 ---
-
-### 📸 Preview (opcional)
-
-Puedes incluir capturas de pantalla aquí para mostrar cómo se ve el sitio.
