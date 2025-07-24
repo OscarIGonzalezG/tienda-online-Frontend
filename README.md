@@ -59,8 +59,8 @@ Durante el desarrollo, me encontré con varios desafíos:
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tienda-vintage-angular.git
-   cd tienda-vintage-angular
+   git clone https://github.com/OscarIGonzalezG/tienda-online-Frontend.git
+   cd tienda-online-Frontend
    ```
 
 2. Instalar dependencias:
@@ -80,7 +80,7 @@ Durante el desarrollo, me encontré con varios desafíos:
 
 ## 👨‍💻 Autor
 
-**Oscar [@OscarIgnacioGonzalezGonzalez]**  
+**Oscar [@tuLinkedIn]**  
 Desarrollador frontend en formación  
 Especializado en Angular + Tailwind CSS  
 
@@ -90,7 +90,11 @@ Especializado en Angular + Tailwind CSS
 
 ## 📬 Contacto
 
-- [LinkedIn](https://www.linkedin.com/in/oscar-ignacio-gonzalez-gonzalez-911369171/)
+- [LinkedIn](https://www.linkedin.com/in/tuusuario)
 - [Email](mailto:tuemail@example.com)
 
 ---
+
+### 📸 Preview (opcional)
+
+Puedes incluir capturas de pantalla aquí para mostrar cómo se ve el sitio.
