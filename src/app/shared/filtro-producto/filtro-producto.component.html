@@ -1,0 +1,51 @@
+<div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+    <!-- Ordenar -->
+    <div>
+        <label class="font-semibold mr-2">Ordenar por:</label>
+        <select 
+            class="border px-3 py-2 rounded-md"
+            [(ngModel)]="ordenSeleccionado"
+            (change)="emitirOrden()"
+        >
+            <option value="precioAsc">Precio: De Menor a Mayor</option>
+            <option value="precioDesc">Precio: De Mayor a Menor</option>
+            <option value="nombreAsc">Nombre: De la A a la Z</option>
+            <option value="nombreDesc">Nombre: De la Z a la A</option>
+        </select>
+    </div>
+
+    <!-- Buscar -->
+    <div class="flex gap-2 items-center">
+        <input
+            type="text"
+            [(ngModel)]="terminoBusqueda"
+            placeholder="Buscar productos..."
+            class="border px-3 py-2 rounded-md"     
+        />
+        <button
+            class="bg-[var(--vintage-rojo)] text-white px-4 py-2 rounded-md"
+            (click)="emitirBusqueda()"
+        >
+        Buscar
+        </button>
+        
+        <button
+            class="border px-4 py-2 rounded-md"
+            (click)="limpiarFiltros()"
+        >
+        Limpiar
+        </button>
+    </div>
+
+    <!-- Cantidad  -->
+    <div>
+        <label class="font-semibold mr-2">Mostrar:</label>
+        <select
+            class="border px-3 py-2 rounded-md"
+            [(ngModel)]="cantidad"
+            (change)="emitirCantidad()"
+        >
+        <option **ngFor="let num of opcionesCantidad" [value]="num">{{ num === 0 ? 'Todos' : num }}</option>
+        </select>
+    </div>
+</div>
