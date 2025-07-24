@@ -91,6 +91,6 @@ Especializado en Angular + Tailwind CSS
 ## 📬 Contacto
 
 - [LinkedIn](https://www.linkedin.com/in/oscar-ignacio-gonzalez-gonzalez-911369171/)
-- [Email](mailto:tuemail@example.com)
+- [Email](mailto:ozkrgonzalez1201@gmail.com)
 
 ---
