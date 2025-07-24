@@ -90,7 +90,7 @@ Especializado en Angular + Tailwind CSS
 
 ## 📬 Contacto
 
-- [LinkedIn]([[https://www.linkedin.com/in/tuusuario](https://www.linkedin.com/in/oscar-ignacio-gonzalez-gonzalez-911369171/)](https://www.linkedin.com/in/oscar-ignacio-gonzalez-gonzalez-911369171/))
+- [LinkedIn]([[https://www.linkedin.com/in/oscar-ignacio-gonzalez-gonzalez-911369171/](https://www.linkedin.com/in/oscar-ignacio-gonzalez-gonzalez-911369171/))
 - [Email](mailto:ozkrgonzalez1201@gmail.com)
 
 ---
